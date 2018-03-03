@@ -1,0 +1,79 @@
+/* General */
+body{
+	background-color: rgba(0,0,0,0.1);
+	margin:0;
+	padding:0;
+}
+header{
+	display:flex;
+	flex-direction: column;
+	background-image:url('../images/background.jpg');
+    width:100%;     
+    background-position:center top;
+    background-repeat:repeat-x;
+    margin:0% auto 0% auto;
+}
+/* unvisited link */
+a:link {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color:darkred;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: crimson;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: firebrick;
+    text-decoration: none;
+}
+
+h3{
+	color: rgba(0,0,0,0.9);
+	font-family: helvetica, sans-serif;
+}
+p{
+	olor: rgba(0,0,0,0.9);
+	font-family: helvetica, sans-serif;
+	font-size: 0.5rem;
+}
+
+/******Details******/
+
+#banner{
+	display:flex;
+
+}
+#logo{
+	display:flex;
+	justify-content: center;
+	margin-top:2%;
+
+}
+#content{
+	background-color: white;
+	display: flex;
+	margin:5% 10%;
+	padding:3% 2%;
+}
+#left{
+	display:inline-block;
+	width:75%;
+}
+#right{
+	display:inline-block;
+	padding:2%;
+	margin-top:3%;
+}
+
